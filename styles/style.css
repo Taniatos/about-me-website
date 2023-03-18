@@ -199,7 +199,7 @@ h4 {
     display: block;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 36px;
     margin-bottom: 10px;
