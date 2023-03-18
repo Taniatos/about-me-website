@@ -140,3 +140,24 @@ h4 {
 .link-weather {
   margin-bottom: 10px;
 }
+@media (max-width: 820px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h4 {
+    font-size: 28px;
+  }
+  .p-home {
+    margin-top: 0px;
+    margin-bottom: 44px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .image-weather {
+    margin-top: -44px;
+  }
+}
