@@ -150,6 +150,9 @@ h4 {
   h4 {
     font-size: 28px;
   }
+  .navigation-links {
+    margin-top: 20px;
+  }
   .p-home {
     margin-top: 0px;
     margin-bottom: 44px;
@@ -159,5 +162,54 @@ h4 {
   }
   .image-weather {
     margin-top: -44px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .navigation-links {
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .p-home {
+    margin-top: 0px;
+    margin-bottom: 44px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .image-clock {
+    display: none;
+  }
+  .image-weather {
+    display: none;
+  }
+  .image-oranges {
+    display: none;
+  }
+  .row-weather {
+    margin-top: 80px;
+  }
+  .primary-link {
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 60px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
   }
 }
